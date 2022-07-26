@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-nginx -C nginx.conf public/
+web: cp .env.example .env && php artisan key:generate
